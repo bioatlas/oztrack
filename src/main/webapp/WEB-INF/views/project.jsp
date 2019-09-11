@@ -749,14 +749,24 @@
         <p>Click the buttons below to find datasets on related websites.</p>
 
         <div id="searchButtons">
-            <button class="btn searchButton"
+            <a type="button" 
+                target="_blank"
+                class="btn searchButton"
                 title="Center for Animal Movement Research"
-                onclick="window.location.href='https://www.canmove.lu.se/'"
-                ><img src="${pageContext.request.contextPath}/img/logos/CAnMove.gif" /></button>
-            <button class="btn searchButton"
+                href='https://www.canmove.lu.se/'"
+                ><img src="${pageContext.request.contextPath}/img/logos/CAnMove.gif" /></a>
+            <a type="button" 
+                target="_blank"
+                class="btn searchButton"
                 title="Wireless Remote Animal Monitoring"
-                onclick="window.location.href='https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/'"
-                ><img src="${pageContext.request.contextPath}/img/logos/wram.jpg" /></button>
+                href='https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/'"
+                ><img src="${pageContext.request.contextPath}/img/logos/wram.jpg" /></a>
+            <a type="button" 
+                target="_blank"
+                class="btn searchButton"
+                title="Movebank"
+                href='https://www.movebank.org/'"
+                ><img src="${pageContext.request.contextPath}/img/logos/movebank.png" /></a>
         </div>
         <!--
         <c:set var="defaultSearchQuery" value="${not empty project.speciesScientificName ? project.speciesScientificName : project.speciesCommonName}"/>
