@@ -220,8 +220,8 @@
             </div>
         </div>
 
-        <span id="by-line">Calculate movement metrics and space use for individually marked animals anywhere in the world.<br/>
-        Acquire citations for your hard-won animal tracking data.</span>
+        <!--<span id="by-line">Calculate movement metrics and space use for individually marked animals anywhere in the world.<br/>
+        Acquire citations for your hard-won animal tracking data.</span>-->
         <hr/>
         <div class="row">
 
@@ -243,12 +243,14 @@
                     </c:forEach>
                     </ul>
                 </div>
+                <!--
                 <div id="tutorials-div" style="padding-top:10px">
                     <h2>Links to Video Tutorials</h2>
                     <table class="table"    id="tutorials-table">
                         <tbody></tbody>
                     </table>
                 </div>
+                -->
             </div>
         </div>
     </jsp:body>
