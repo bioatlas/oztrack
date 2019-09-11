@@ -137,7 +137,7 @@
                     "bDeferRender": true,
                     "search": { "search": "${searchTerm}" }
                 } );
-                $( "#createprojectbuttonarea" ).html('<button id="createprojectbutton" class="btn">Create a new ZoaTrack Project</button>');
+                //$( "#createprojectbuttonarea" ).html('<button id="createprojectbutton" class="btn">Create a new ZoaTrack Project</button>');
                 $("#createprojectbutton").click( function () {
                     window.document.location = "${pageContext.request.contextPath}/projects/new"
                 });

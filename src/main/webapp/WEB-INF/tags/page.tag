@@ -175,7 +175,7 @@
                             <%--<li><a href="${fn:replace(baseUrl, 'http://', 'https://')}/login">Login</a></li>
                             <li><a href="${fn:replace(baseUrl, 'http://', 'https://')}/users/new">Register</a></li>--%>
                             <li><a href="/login">Login</a></li>
-                            <li><a href="/users/new">Register</a></li>
+                            <!--<li><a href="/users/new">Register</a></li>-->
                         </c:otherwise>
                     </c:choose>
                 </ul>
