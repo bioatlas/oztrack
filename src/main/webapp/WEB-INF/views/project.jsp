@@ -749,13 +749,14 @@
         <p>Click the buttons below to find datasets on related websites.</p>
 
         <div id="searchButtons">
-            <button id="searchTernButton" class="btn searchButton"
-                title="Terrestrial Ecosystem Research Network (TERN)"
-                ><img src="${pageContext.request.contextPath}/img/tern-logo.gif" /></button>
-            <button id="searchAlaButton" class="btn searchButton"
-                title="Atlas of Living Australia (ALA)"
-                ><img src="${pageContext.request.contextPath}/img/ala-logo.png" /></button>
+            <button class="btn searchButton"
+                title="Center for Animal Movement Research"
+                ><img src="${pageContext.request.contextPath}/img/logos/CAnMove.gif" /></button>
+            <button class="btn searchButton"
+                title="Wireless Remote Animal Monitoring"
+                ><img src="${pageContext.request.contextPath}/img/logos/wram.jpg" /></button>
         </div>
+        <!--
         <c:set var="defaultSearchQuery" value="${not empty project.speciesScientificName ? project.speciesScientificName : project.speciesCommonName}"/>
         <form id="searchTernForm" class="searchForm form-horizontal form-bordered">
             <fieldset>
@@ -833,5 +834,6 @@
             <div id="searchAlaOutput" class="searchOutput">
             </div>
         </form>
+        -->
     </jsp:body>
 </tags:page>

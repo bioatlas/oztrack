@@ -228,7 +228,7 @@
             <div id="blog-div" class="span8">
                 <table class="table, news-table" id="blog-table">
                     <thead>
-                    <tr><th>News on Animal Movement Research</th></tr>
+                    <tr><th>News on Swedish Animal Movement Research</th></tr>
                     </thead>
                     <tbody></tbody>
                 </table>
