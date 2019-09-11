@@ -179,6 +179,14 @@
             <div class="span12">
                 <div id="caro" class="carousel slide">
                     <div class="carousel-inner">
+                        <div class="item active"><img src="img/carousel_arctic_terns.jpg">
+                            <div class="carousel-caption">
+                                <a href="${pageContext.request.contextPath}/projects">
+                                    The global migration of the Arctic tern is the longest track data in our database.</a></div></div>
+                        <div class="item active"><img src="img/carousel_daphnia.jpg">
+                            <div class="carousel-caption">
+                                <a href="${pageContext.request.contextPath}/projects">
+                                    Zooplankton <i>Daphnia</i> tracks is among the smallest scale animal movement data we store.</a></div></div>
                         <div class="item active"><img src="img/caro_proj_map.jpg">
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">

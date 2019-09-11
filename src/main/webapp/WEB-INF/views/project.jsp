@@ -751,9 +751,11 @@
         <div id="searchButtons">
             <button class="btn searchButton"
                 title="Center for Animal Movement Research"
+                onclick="window.location.href='https://www.canmove.lu.se/'"
                 ><img src="${pageContext.request.contextPath}/img/logos/CAnMove.gif" /></button>
             <button class="btn searchButton"
                 title="Wireless Remote Animal Monitoring"
+                onclick="window.location.href='https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/'"
                 ><img src="${pageContext.request.contextPath}/img/logos/wram.jpg" /></button>
         </div>
         <!--
