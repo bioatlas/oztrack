@@ -24,7 +24,9 @@ function createHomeMap(div) {
     map.addControl(projectClickControl);
     projectClickControl.activate();
 
-    map.setCenter(new OpenLayers.LonLat(133, -28).transform(projection4326, projection900913), 3);
+    // Long Lat for Australia : 133 -28
+    // Sweden 18 60
+    map.setCenter(new OpenLayers.LonLat(18, 60).transform(projection4326, projection900913), 3);
 
     return map;
 }
