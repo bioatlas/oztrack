@@ -746,7 +746,7 @@
 
         <h2>Search Related Sites</h2>
 
-        <p>Click the buttons below to find datasets on related websites.</p>
+        <!--<p>Click the buttons below to find datasets on related websites.</p>-->
 
         <div id="searchButtons">
             <a type="button" 

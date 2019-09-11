@@ -134,7 +134,7 @@
                         <a id="navSearch" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
                         <ul id="navBrowse" class="dropdown-menu" role="menu" aria-labelledby="drop1">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/projects">Browse the repository</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/publication">Published Data</a></li>
+                            <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/publication">Published Data</a></li>-->
                         </ul>
                     </li>
                     <li id="navToolkit" class="dropdown">
