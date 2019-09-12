@@ -191,10 +191,10 @@
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">
                                     Browse the animal tracking repository</a></div></div>
-                        <div class="item"><img src="img/caro_cass_dooley.jpg">
+                        <div class="item"><img src="img/carousel_tracking_radar.jpg">
                             <div class="carousel-caption">
                               <a href="${pageContext.request.contextPath}/projects/2/analysis">
-                                  Choose from a range of analysis tools for your tracking dataset</a></div></div>
+                                  The tracking radar allows us to record detailed flight path of flocks or individual birds</a></div></div>
                         <div class="item"><img src="img/caro_cass_tag.jpg">
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects/2/analysis">
