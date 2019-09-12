@@ -250,6 +250,7 @@
                         <li>${stat.value} &nbsp;${stat.key}</li>
                     </c:forEach>
                     </ul>
+                    <p><i>Currently in the process blabla <a target="_blank" href='https://www.canmove.lu.se/'">CanMove</a> / <a href="https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/" target="_blank">WRAM</a></i></p>
                 </div>
                 <!--
                 <div id="tutorials-div" style="padding-top:10px">
