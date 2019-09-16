@@ -81,8 +81,8 @@
             categories: $.extend(
                 {
                     'base': {label: 'Base layer'},
-                    'terrestrial': {label: 'Terrestrial layers', initMinimized: true},
-                    'marine': {label: 'Marine layers', initMinimized: true},
+                    /*'terrestrial': {label: 'Terrestrial layers', initMinimized: true},
+                    'marine': {label: 'Marine layers', initMinimized: true},*/
                     'project': {label: 'Project layers'}
                 },
                 that.extraCategories
@@ -188,7 +188,7 @@
             }
         });
         that.map.addLayer(that.emptyBaseLayer);
-
+        /*
         that.elevationLayer = new OpenLayers.Layer.WMS(
             'Elevation',
             '/geoserver/gwc/service/wms',
@@ -381,7 +381,9 @@
             }
         );
         that.map.addLayer(that.ibraSubregions);
+        */
 
+        /*
         that.bathymetryLayer = new OpenLayers.Layer.WMS(
             'Bathymetry',
             '/geoserver/gwc/service/wms',
@@ -658,7 +660,8 @@
             }
         );
         that.map.addLayer(that.imcraMesoscale);
-
+        */
+        
         function getAnimal(id) {
             return $.grep(that.animals, function(x) {return x.id === id;})[0];
         }
