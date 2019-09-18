@@ -25,6 +25,11 @@
     <title>ZoaTrack${(not empty title) ? ': ' : ' - '}${(not empty title) ? title : 'Free Animal Tracking Software'}</title>
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/optimised/core.css"/>
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ala-docker/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ala-docker/css/ala-styles.css"/>
+    <link rel='stylesheet' id='fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+
     <style type="text/css">
 
         #header {
@@ -209,14 +214,7 @@
 
 <c:if test="${not fluid}">
     <div id="footer">
-        <div id="logos">
-            <a target="_blank" href="http://ala.org.au/"><img src="${pageContext.request.contextPath}/img/logo_ala-2016-inline.png"/></a>
-            <a target="_blank" href="http://nectar.org.au/"><img src="${pageContext.request.contextPath}/img/logo_nectardirectorate.png"/></a>
-        </div>
-        <div id="site-licence">
-            All site content, except where otherwise noted, is licensed under a
-            <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution license</a>.
-        </div>
+        <%@ include file="../../ala-docker/footer.html" %>
     </div>
 </c:if>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/optimised/core.js"></script>
