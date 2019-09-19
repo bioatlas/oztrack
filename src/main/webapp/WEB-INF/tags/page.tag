@@ -126,8 +126,8 @@
 <body>
 
 <div id="header_custom" class="navbar navbar-default navbar-fixed-top" style="width:100%;">
-    <div class="container${fluid ? '-fluid' : ''}">
-        <div class="navbar-inverse navbar-static-top">
+    <div id="container-navbar-custom" class="container${fluid ? '-fluid' : ''}">
+        <div class="navbar-static-top">
             <div class="navbar-inner">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
