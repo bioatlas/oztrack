@@ -32,10 +32,6 @@
         </div>
         </c:if>
 
-        <div class="alert" style="text-align: center;">
-            Don't have an account yet? <a href="${pageContext.request.contextPath}/users/new">Register as a new user</a>
-        </div>
-
         <div class="row">
             <c:if test="${aafEnabled}">
             <div class="span6">
@@ -89,7 +85,6 @@
                     </fieldset>
                     <div class="form-actions">
                         <input class="btn btn-primary" type="submit" value="Login"/>
-                        <a style="margin-left: 10px;" href="${pageContext.request.contextPath}/reset-password">Can't access your account?</a>
                     </div>
                 </form>
             </div>
