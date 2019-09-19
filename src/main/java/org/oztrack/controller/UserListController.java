@@ -129,13 +129,13 @@ public class UserListController {
         return newUser;
     }
 
-    @RequestMapping(value="/users/new", method=RequestMethod.GET)
+    /*@RequestMapping(value="/users/new", method=RequestMethod.GET)
     @PreAuthorize("permitAll")
     public String getFormView(Model model) {
         addFormAttributes(model);
         model.addAttribute("recaptchaSiteKey", configuration.getRecaptchaPublicKey());
         return "user-form";
-    }
+    }*/
 
     @RequestMapping(value="/users", method=RequestMethod.POST)
     @PreAuthorize("permitAll")
