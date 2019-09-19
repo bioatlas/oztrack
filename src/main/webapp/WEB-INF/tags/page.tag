@@ -128,7 +128,7 @@
 <div id="header_custom" class="navbar navbar-default navbar-fixed-top" style="width:100%;">
     <div id="container-navbar-custom" class="container${fluid ? '-fluid' : ''}">
         <div class="navbar-static-top">
-            <div class="navbar-inner">
+            <div class="">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
                 <a class="navbar-brand" href="/"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
