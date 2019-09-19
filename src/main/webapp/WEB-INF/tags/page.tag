@@ -31,7 +31,7 @@
     <link rel='stylesheet' id='fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 
     <style type="text/css">
-
+        /*
         #header {
             background-color:#1b1b1b;
             position: relative;
@@ -67,8 +67,8 @@
             display: inline-block;
             margin: 0 auto;
             vertical-align: middle;
-            *display: inline; /* ie7 fix */
-            *zoom: 1; /* hasLayout ie7 trigger */
+            *display: inline; // ie7 fix 
+            *zoom: 1; // hasLayout ie7 trigger 
             z-index: 1;
 
         }
@@ -119,18 +119,19 @@
         .dropdown-menu .divider {
             height: auto;
         }
-
+        */
     </style>
     <jsp:invoke fragment="head"/>
 </head>
 <body>
 
-<div id="header" style="width:100%;">
+<div id="header_custom" class="navbar navbar-default navbar-fixed-top" style="width:100%;">
     <div class="container${fluid ? '-fluid' : ''}">
-        <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-inverse navbar-static-top">
             <div class="navbar-inner">
-               <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
+                <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
+                <a class="navbar-brand" href="/"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
                 <ul class="nav">
                     <c:if test="${!empty navExtra}">
                         <jsp:invoke fragment="navExtra"/>
