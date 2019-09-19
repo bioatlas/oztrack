@@ -29,13 +29,16 @@ public class ResetPasswordRequestController {
     @Autowired
     private EmailBuilderFactory emailBuilderFactory;
 
+    /*
     @RequestMapping(value="/reset-password", method=RequestMethod.GET)
     public String getView(
         Model model
     ) {
         return "reset-password-request";
     }
+    */
 
+    /*
     @RequestMapping(value="/reset-password", method=RequestMethod.POST)
     public String processPost(
         HttpServletRequest request,
@@ -62,7 +65,8 @@ public class ResetPasswordRequestController {
         model.addAttribute("successMessage", "A password reset link has been sent to " + email);
         return "reset-password-request";
     }
-
+    */
+    
     private void sendResetPasswordEmail(String url, User user) throws Exception {
         String passwordResetToken = UUID.randomUUID().toString();
         Calendar passwordResetExpiresAtCalendar = Calendar.getInstance();
