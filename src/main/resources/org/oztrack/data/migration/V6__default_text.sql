@@ -51,13 +51,13 @@ update settings set contacttext =
     E'<p>You can contact the <a href ="https://bioatlas.se/contact/" target="_blank">BioAtlas team here</a></p> \n' ||
     E'<h2>Related Websites</h2>\n' ||
     E'<p>\n' ||
-    E'<a type="button" target="_blank" class="btn searchButton" title="Center for Animal Movement Research" href='https://www.canmove.lu.se/canmov    E'" >\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Center for Animal Movement Research" href="https://www.canmove.lu.se/canmove" >\n' ||
     E'<img src="/img/logos/CAnMove.gif" />\n' ||
     E'</a>&nbsp;\n' ||
-    E'<a type="button" target="_blank" class="btn searchButton" title="Wireless Remote Animal Monitoring" href='https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/'" >\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Wireless Remote Animal Monitoring" href="https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/" >\n' ||
     E'<img src="/img/logos/wram.jpg" />\n' ||
     E'</a>&nbsp;\n' ||
-    E'<a type="button" target="_blank" class="btn searchButton" title="Movebank" href='https://www.movebank.org/node/2'" >\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Movebank" href="https://www.movebank.org/node/2" >\n' ||
     E'<img src="/img/logos/movebank.png" />\n' ||
     E'</a>\n' ||
     E'</p>\n'
