@@ -9,7 +9,6 @@ update settings set hometext =
 where hometext is null or hometext = '';
 
 update settings set abouttext =
-    E'<h1>About OzTrack</h1>\n' ||
     E'<p>\n' ||
     E'    The present OzTrack project is seeking support from the\n' ||
     E'    <a href="https://www.nectar.org.au/eresearch-tools">NeCTAR e-Research Tools</a>\n' ||
