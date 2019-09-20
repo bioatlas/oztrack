@@ -40,13 +40,6 @@
                 height: 180px;
                 margin-top: 11px; /* to match h2 */
             }
-            .searchButton {
-                display: inline-block;
-                padding: 2px 9px;
-            }
-            .searchButton img {
-                max-height: 36px;
-            }
             .searchForm {
                 display: none;
                 margin: 18px 0;
