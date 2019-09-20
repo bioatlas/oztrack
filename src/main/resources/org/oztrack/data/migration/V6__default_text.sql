@@ -43,46 +43,22 @@ update settings set abouttext =
 where abouttext is null or abouttext = '';
 
 update settings set contacttext =
-    E'<h1>Contacts</h1>\n' ||
-    E'<div style="width:80%">\n' ||
-    E'    <div style="position:relative;float:left;width:59%;">\n' ||
-    E'        <h2>eResearch Lab, UQ</h2>\n' ||
-    E'        <p>\n' ||
-    E'            Jane Hunter<br>\n' ||
-    E'            <a href="mailto:j.hunter@uq.edu.au">j.hunter@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <p>\n' ||
-    E'            Wilfred Brimblecombe<br>\n' ||
-    E'            <a href="mailto:w.brimblecombe@uq.edu.au">w.brimblecombe@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <p>\n' ||
-    E'            Charles Brooking<br>\n' ||
-    E'            <a href="mailto:c.brooking@uq.edu.au">c.brooking@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <p>\n' ||
-    E'            Peggy Newman (former member)<br>\n' ||
-    E'            <a href="mailto:peggy.newman@uq.edu.au">peggy.newman@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <h2>Environmental Decisions Hub, UQ</h2>\n' ||
-    E'        <p>\n' ||
-    E'            Matthew Watts<br>\n' ||
-    E'            <a href="mailto:m.watts@uq.edu.au">m.watts@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'    </div>\n' ||
-    E'    <div style="position:relative;float:right;width:39%;">\n' ||
-    E'        <h2>Eco-Lab, UQ</h2>\n' ||
-    E'        <p>\n' ||
-    E'            Craig Franklin<br>\n' ||
-    E'            <a href="mailto:c.franklin@uq.edu.au">c.franklin@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <p>\n' ||
-    E'            Hamish Campbell<br>\n' ||
-    E'            <a href="mailto:Hamish.Campbell@uq.edu.au">Hamish.Campbell@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'        <p>\n' ||
-    E'            Ross Dwyer<br>\n' ||
-    E'            <a href="mailto:ross.dwyer@uq.edu.au">ross.dwyer@uq.edu.au</a>\n' ||
-    E'        </p>\n' ||
-    E'    </div>\n' ||
-    E'</div>'
+    E'<h1> Contacts</h1>\n' ||
+    E'<p> For general information about the ZoaTrack project, please see the <a href="about">About ZoaTrack</a> page.</p>\n' ||
+    E'<h2> Technical support</h2>\n' ||
+    E'<p> For technical support or to report an issue with the website, email <a href="mailto:mathieu.blanchet@biol.lu.se">mathieu.blanchet@biol.lu.se</a>.</p>\n' ||
+    E'<h2>BioAtlas.se<h2>\n' ||
+    E'<p>You can contact the <a href ="https://bioatlas.se/contact/" target="_blank">BioAtlas team here</a></p> \n' ||
+    E'<h2>Related Websites</h2>\n' ||
+    E'<p>\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Center for Animal Movement Research" href='https://www.canmove.lu.se/canmov    E'" >\n' ||
+    E'<img src="/img/logos/CAnMove.gif" />\n' ||
+    E'</a>&nbsp;\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Wireless Remote Animal Monitoring" href='https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/'" >\n' ||
+    E'<img src="/img/logos/wram.jpg" />\n' ||
+    E'</a>&nbsp;\n' ||
+    E'<a type="button" target="_blank" class="btn searchButton" title="Movebank" href='https://www.movebank.org/node/2'" >\n' ||
+    E'<img src="/img/logos/movebank.png" />\n' ||
+    E'</a>\n' ||
+    E'</p>\n'
 where contacttext is null or contacttext = '';
