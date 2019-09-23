@@ -80,7 +80,8 @@
                             </div>
                         </div>
                         <c:if test="${not empty redirectUrl}">
-                        <input type="hidden" name="redirect" value="${fn:replace(redirectUrl, 'http://', 'https://')}" />
+                        <!--<input type="hidden" name="redirect" value="${fn:replace(redirectUrl, 'http://', 'https://')}" />-->
+                        <input type="hidden" name="redirect" value="${redirectUrl}" />
                         </c:if>
                     </fieldset>
                     <div class="form-actions">
