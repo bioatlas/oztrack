@@ -9,6 +9,7 @@ before_install:
 - export TZ=Australia/Canberra
 - date
 - mkdir -p ~/.m2; wget -q -O ~/.m2/settings.xml https://raw.githubusercontent.com/AtlasOfLivingAustralia/travis-build-configuration/master/travis_maven_settings_simple.xml
+- mkdir -p oztrack/target/classes/; wsimport -extension http://ws-argos.clsamerica.com/argosDws/services/DixService?wsdl -d oztrack/target/classes/;
 script: mvn clean install
 after_success: '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && mvn deploy'
 env:
