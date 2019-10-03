@@ -137,12 +137,7 @@
                         <jsp:invoke fragment="navExtra"/>
                     </c:if>
                     <li id="liSearch" class="dropdown">
-                        <a id="navSearch" href="#" role="button" href="${pageContext.request.contextPath}/projects">Data<b class="caret"></b></a>
-                        <!--<ul id="navBrowse" class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/projects">Browse the repository</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/publication">Published Data</a></li>
-                        </ul>
-                        -->
+                        <a id="navSearch" role="button" href="${pageContext.request.contextPath}/projects">Data></b></a>
                     </li>
                     <li id="navToolkit" class="dropdown">
                         <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>

@@ -228,13 +228,13 @@
 
             <div id="right-panel" class="span3 offset1">
                 <div id="stats-div">
-                    <h2>ZoaTrack Stats</h2>
+                    <h2>CAnMove Stats</h2>
                     <ul>
-                    <c:forEach items="${summaryStats}" var="stat">
-                        <li>${stat.value} &nbsp;${stat.key}</li>
-                    </c:forEach>
+                        <li>112 Datasets</li> 
+                        <li>53 Species</li> 
+                        <li>13'924 Animals</li> 
+                        <li>16'400 Tracks</li> 
                     </ul>
-                    <p><i>Currently in the process blabla <a target="_blank" href='https://www.canmove.lu.se/'">CanMove</a> / <a href="https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/" target="_blank">WRAM</a></i></p>
                 </div>
                 <!--
                 <div id="tutorials-div" style="padding-top:10px">

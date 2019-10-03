@@ -34,6 +34,12 @@
                 used according to the <a href="https://developers.google.com/maps/terms">Google Maps/Google Earth APIs Terms of Service</a>.
             </li>
 
+            <li class="layer">
+                <a href="http://tile.openstreetmap.org/">OpenStreetMap</a>:<br />
+                accessed via the <a href="https://wiki.openstreetmap.org/wiki/OpenLayers">OpenLayers JavaScript API</a>;<br />
+                used according to the <a href="https://wiki.openstreetmap.org/wiki/Tile_usage_policy">OpenStreetMap tile usage policy</a>.
+            </li>
+            
         </ul>
     </jsp:body>
 </tags:page>
