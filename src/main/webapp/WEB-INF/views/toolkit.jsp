@@ -94,7 +94,7 @@
                         <div class="media-body">
                             <h4 class="media-heading">How can I upload my data on ZoaTrack ?</h4>
                             <p>
-                                blablabla contact us addresse@email
+                                If your data is associated with Sweden and if you're willing to release all data with open access, please contact us at zoatrack@bioatlas.se.
                             </p>
                         </div>
                     </div>
@@ -224,8 +224,7 @@
                         <h4>Using and Citing data from the ZoaTrack data repository</h4>
                         <div class="media-body">
                             <p>If you use data from ZoaTrack in any type of publication then you must cite the project
-                            DOI (if available) or any published peer-reviewed papers associated with the study. We
-                            strongly encourage you to contact the data custodians to discuss data usage and appropriate
+                            DOI (if available) or any published peer-reviewed papers associated with the study. Please contact the data custodians to discuss data usage and appropriate
                             accreditation.</p>
                         </div>
                     </div>
