@@ -652,7 +652,7 @@
         <p>
             The data in this project is publicly available under a <a target="_blank" href="${project.dataLicence.infoUrl}">${project.dataLicence.title}</a>.
             If you use these data in any type of publication then you must cite the project DOI (if available) or any
-            published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians
+            published peer-reviewed papers associated with the study. Please contact the data custodians
             to discuss data usage and appropriate accreditation.
         </p>
         </c:when>

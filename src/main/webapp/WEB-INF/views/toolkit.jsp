@@ -63,7 +63,7 @@
                             <h4 class="media-heading">Viewing tracks</h4>
                                 <p>
                                     The tracks can be accessed from the Project page by clicking ‘Tracks and analysis’ (located on the top panel under the Project menu) , or by clicking the View Tracks icon in the right of the screen.
-                                    Alternatively, existing tracks can be accessed from Open projects (or projects that you have access rights to) directly from the ZoaTrack Repository. These can be accessed by clicking Browse the Repository in the website header, then searching for your relevant project – e.g. “Bush rat Translocation”
+                                    Alternatively, existing tracks can be accessed from Open projects (or projects that you have access rights to) directly from the ZoaTrack Repository. These can be accessed by clicking Browse the Repository in the website header, then searching for your relevant project – e.g. “Moose Translocation”
                                     This opens an interactive map showing the relocations contained in the tracking file plotted on a Google maps layer. Also shown are the trajectory the animals took (lines) and the start and end locations (green and red points).
                                     The page always faces due north, and a scale is displayed in the bottom left of the map. In the top left of the map are tools to pan (hand) and zoom (+/-) around the map and measure distances (ruler).
                                 </p>

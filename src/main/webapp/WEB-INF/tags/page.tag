@@ -137,7 +137,7 @@
                         <jsp:invoke fragment="navExtra"/>
                     </c:if>
                     <li id="liSearch" class="dropdown">
-                        <a id="navSearch" role="button" href="${pageContext.request.contextPath}/projects">Data></b></a>
+                        <a id="navSearch" role="button" href="${pageContext.request.contextPath}/projects">Data</b></a>
                     </li>
                     <li id="navToolkit" class="dropdown">
                         <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
