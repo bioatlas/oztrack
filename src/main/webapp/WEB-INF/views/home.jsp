@@ -187,7 +187,7 @@
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">
                                     Zooplankton <i>Daphnia</i> tracks is among the smallest scale animal movement data we store.</a></div></div>
-                        <div class="item"><img src="img/caro_proj_map.jpg">
+                        <div class="item"><img src="img/carousel_sweden_map.jpg">
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">
                                     Browse the animal tracking repository</a></div></div>
@@ -195,22 +195,6 @@
                             <div class="carousel-caption">
                               <a href="${pageContext.request.contextPath}/projects/2/analysis">
                                   The tracking radar allows us to record detailed flight path of flocks or individual birds</a></div></div>
-                        <div class="item"><img src="img/caro_cass_tag.jpg">
-                            <div class="carousel-caption">
-                                <a href="${pageContext.request.contextPath}/projects/2/analysis">
-                                    See our featured tracks for southern cassowaries in Australia</a></div></div>
-                        <div class="item"><img src="img/caro_cass_edit.jpg">
-                            <div class="carousel-caption">
-                                <a href="${pageContext.request.contextPath}/toolkit/datamgt">
-                                    Easy to use cleansing and filtering tools for your animal tracking dataset</a></div></div>
-                        <div class="item"><img src="img/caro_shearw.jpg">
-                            <div class="carousel-caption">
-                                <a href="${pageContext.request.contextPath}/projects/93/analysis">
-                                    Visualise tracks on a suite of remote sensing layers</a></div></div>
-                        <div class="item"><img src="img/caro_croc_tag.png">
-                            <div class="carousel-caption">
-                                <a href="${pageContext.request.contextPath}/projects/3/analysis">
-                                    See our featured tracks for GPS-tagged saltwater crocodiles!</a></div></div>
                     </div>
                     <a class="carousel-control left" href="#caro" data-slide="prev">&lsaquo;</a>
                     <a class="carousel-control right" href="#caro" data-slide="next">&rsaquo;</a>

@@ -131,17 +131,18 @@
             <div class="">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
-                <a class="navbar-brand" href="/"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
+                <a class="navbar-brand" href="https://bioatlas.se/" target="_blank"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
                 <ul class="nav">
                     <c:if test="${!empty navExtra}">
                         <jsp:invoke fragment="navExtra"/>
                     </c:if>
                     <li id="liSearch" class="dropdown">
-                        <a id="navSearch" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
-                        <ul id="navBrowse" class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <a id="navSearch" href="#" role="button" href="${pageContext.request.contextPath}/projects">Data<b class="caret"></b></a>
+                        <!--<ul id="navBrowse" class="dropdown-menu" role="menu" aria-labelledby="drop1">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/projects">Browse the repository</a></li>
-                            <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/publication">Published Data</a></li>-->
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/publication">Published Data</a></li>
                         </ul>
+                        -->
                     </li>
                     <li id="navToolkit" class="dropdown">
                         <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
@@ -149,7 +150,7 @@
                             <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/projects/new">Create a Project</a></li>-->
                             <li role="presentation" class="divider"></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/toolkit/getstarted">Getting Started</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/toolkit/analysis">Home Range Estimation</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/toolkit/analysis">The Analysis Toolkit</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/toolkit/datamgt">Data Management</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/toolkit/doi">Publication & Citation</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="${pageContext.request.contextPath}/about/layers">Environment Layers</a></li>
