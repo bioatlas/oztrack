@@ -78,7 +78,7 @@
     </p>
     <p>
     If you use these data in any type of publication then you must cite the project DOI (if available) or any
-    published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians
+    published peer-reviewed papers associated with the study. Please contact the data custodians
     to discuss data usage and appropriate accreditation.
     </p>
     <div class="form-actions">

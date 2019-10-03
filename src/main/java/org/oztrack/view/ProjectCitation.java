@@ -56,7 +56,7 @@ public class ProjectCitation {
                     ") Data from: '" + project.getTitle() + ".'" + " ZoaTrack.org Date Accessed: " + sdfDate.format(new Date()) +"\n\n");
         }
         stringBuilder.append("If you use these data in any type of publication then you must cite the above and any published " +
-                "peer-reviewed papers associated with the study. We strongly recommend that you contact the data custodians to " +
+                "peer-reviewed papers associated with the study. Please contact the data custodians to " +
                 "discuss data usage and appropriate accreditation.\n\n");
         return stringBuilder.toString();
     }
