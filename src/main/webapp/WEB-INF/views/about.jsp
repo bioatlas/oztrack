@@ -31,7 +31,14 @@
     </jsp:attribute>
     <jsp:body>
         <h1>About ZoaTrack</h1>
-        ${settings.aboutText}
+        <h2>Australian initiative</h2>
+        <p>ZoaTrack emerged from the OzTrack system which was originally developed at The University of Queensland in 2010-11 with the support of the Australian National Data Service (ANDS).  It was then funded under the  NeCTAR-funded eResearch Tool project from 2012 to 2014 and is now supported and maintained by the <a href="https://github.com/atlasoflivingaustralia" target="_blank">Atlas of Living Australia</a>.</p>
+
+        <h2>Swedish adaptation</h2>
+        <p>This website is an adaptation of the open-source <a href="https://zoatrack.org/" target="_blank">Australian version</a>, you can find <a href="https://github.com/bioatlas/zoa-docker" target="_blank">our code here</a>. We currently work on a more advanced module that could be able to handle different tracking and sensor data.</p> 
+        <p>If you're interested in it, please contact Johan Bäckman or Mathieu Blanchet at zoatrack@bioatlas.se</p>
+            
+
         <h2>Further information</h2>
         <div id="about-buttons" class="row">
            <c:if test="${not empty settings.publicationsText}">
