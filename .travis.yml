@@ -18,3 +18,4 @@ deploy:
     repo: bioatlas/oztrack
     all-branches: true
     tags: true
+    
