@@ -212,8 +212,7 @@
             </div>
         </div>
 
-        <!--<span id="by-line">Calculate movement metrics and space use for individually marked animals anywhere in the world.<br/>
-        Acquire citations for your hard-won animal tracking data.</span>-->
+        <span id="by-line">This is the Swedish national portal for animal movement research data. Currently most of the data originates from the CAnMove project. Data include geographical timeseries and other sensor data.</span>
         <hr/>
         <div class="row">
 
