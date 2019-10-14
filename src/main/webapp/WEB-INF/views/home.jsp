@@ -212,7 +212,7 @@
             </div>
         </div>
 
-        <span id="by-line">This is the Swedish national portal for animal movement research data. Currently most of the data originates from the CAnMove project. Data include geographical timeseries and other sensor data.</span>
+        <span id="by-line">This is the Swedish national portal for animal movement research data, including geographical timeseries and other sensor data. Most of the data originates from the <a href="https://www.canmove.lu.se/canmove" target="_blank">CAnMove project</a>.</span>
         <hr/>
         <div class="row">
 
