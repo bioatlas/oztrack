@@ -110,7 +110,7 @@ public class ProjectListController {
         Project project = new Project();
         project.setAccess(ProjectAccess.OPEN);
         project.setEmbargoDate(DateUtils.addYears(currentCalendar.getTime(), 1));
-        project.setSrsIdentifier("EPSG:3577");
+        project.setSrsIdentifier("EPSG:3152");
         return project;
     }
 /*
