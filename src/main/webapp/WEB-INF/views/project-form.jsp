@@ -475,7 +475,6 @@
                         <form:input id="srsIdentifier" path="srsIdentifier" type="text" class="input-medium"/>
                         <form:errors path="srsIdentifier" element="div" cssClass="help-block formErrors"/>
                         <div class="help-block">
-                            <a href="javascript:void(0)" onclick="srsSelector.showDialog();">Select Australian or New Zealand SRS</a><br>
                             <a href="javascript:void(0)" onclick="window.open('http://spatialreference.org/ref/', 'popup', 'width=800,height=600,scrollbars=yes');">Search for international SRS codes</a>
                         </div>
                     </div>
