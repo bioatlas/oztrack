@@ -181,9 +181,9 @@ function buildProjectPopup(f) {
     var div = $('<div>');
     var content = $('<div class="home-popup">').appendTo(div);
     content.append($('<div class="home-popup-title">').append(f.attributes.projectTitle));
-    content.append('<a href="' + f.attributes.projectId + '">View summary</a>')
+    content.append('<a href="projects/' + f.attributes.projectId + '">View summary</a>')
     content.append(' | ');
-    content.append('<a href="' + f.attributes.projectId + '/analysis">View tracks</a>');
+    content.append('<a href="projects/' + f.attributes.projectId + '/analysis">View tracks</a>');
     content.append(' <hr> ');
     var pairs = [];
     pairs.push(['Species',
