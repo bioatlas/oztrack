@@ -179,7 +179,15 @@
             <div class="span12">
                 <div id="caro" class="carousel slide">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="img/carousel_arctic_terns.jpg">
+                        <div class="item active"><img src="img/carousel_sweden_map.jpg">
+                            <div class="carousel-caption">
+                                <a href="${pageContext.request.contextPath}/projects">
+                                    Browse the animal tracking repository</a></div></div>
+                        <div class="item"><img src="img/carousel_tracking_radar.jpg">
+                            <div class="carousel-caption">
+                              <a href="${pageContext.request.contextPath}/projects/3/analysis">
+                                  The tracking radar allows us to record detailed flight path of flocks or individual birds</a></div></div>
+                        <div class="item"><img src="img/carousel_arctic_terns.jpg">
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">
                                     The global migration of the Arctic tern is the longest track data in our database.</a></div></div>
@@ -187,14 +195,7 @@
                             <div class="carousel-caption">
                                 <a href="${pageContext.request.contextPath}/projects">
                                     Zooplankton <i>Daphnia</i> tracks is among the smallest scale animal movement data we store.</a></div></div>
-                        <div class="item"><img src="img/carousel_sweden_map.jpg">
-                            <div class="carousel-caption">
-                                <a href="${pageContext.request.contextPath}/projects">
-                                    Browse the animal tracking repository</a></div></div>
-                        <div class="item"><img src="img/carousel_tracking_radar.jpg">
-                            <div class="carousel-caption">
-                              <a href="${pageContext.request.contextPath}/projects/2/analysis">
-                                  The tracking radar allows us to record detailed flight path of flocks or individual birds</a></div></div>
+                        
                     </div>
                     <a class="carousel-control left" href="#caro" data-slide="prev">&lsaquo;</a>
                     <a class="carousel-control right" href="#caro" data-slide="next">&rsaquo;</a>
@@ -204,8 +205,6 @@
                             <li data-target="#caro" data-slide-to="1"></li>
                             <li data-target="#caro" data-slide-to="2"></li>
                             <li data-target="#caro" data-slide-to="3"></li>
-                            <li data-target="#caro" data-slide-to="4"></li>
-                            <li data-target="#caro" data-slide-to="5"></li>
                         </ol>
                     </div>
                 </div>
