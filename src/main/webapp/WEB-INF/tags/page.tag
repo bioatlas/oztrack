@@ -30,105 +30,58 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ala-docker/css/ala-styles.css"/>
     <link rel='stylesheet' id='fontawesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 
-    <style type="text/css">
-        /*
-        #header {
-            background-color:#1b1b1b;
-            position: relative;
-            z-index: 1;
-        }
-
-        #login > ul > li {
-            padding: 2px;
-        }
-        #login {
-            padding-top: 8px;
-            right: 3px;
-        }
-        .icon-user {
-            margin-top:3px;
-        }
-
-        .navbar {
-            border-radius: 0;
-            background-color:#1b1b1b !important;
-
-        }
-
-        .navbar-inner {
-        .border-radius(0);
-            min-height: 0;
-            line-height: 0;
-            text-align: center;
-        }
-
-        .navbar .nav {
-            float: none;
-            display: inline-block;
-            margin: 0 auto;
-            vertical-align: middle;
-            *display: inline; // ie7 fix 
-            *zoom: 1; // hasLayout ie7 trigger 
-            z-index: 1;
-
-        }
-        .navbar-brand {
-            padding-right: 120px;
-        }
-        .navbar-brand img {
-            padding: 3px 20px;
-        }
-
-        .navbar-outer .btn {
-            margin-top: 12px;
-        }
-
-        .navbar .nav > li > a {
-        //  padding-top: 20px;
-            font-size: 1.2em;
-        }
-
-        .navbar-inverse .nav > li > a,
-        .navbar-inverse .nav > li > a:link,
-        .navbar-inverse .nav > li > a:visited {
-            color: #ffffff;
-        }
-
-        .navbar .nav > li > a:hover,
-        .navbar .nav > li > a:active {
-            color: #f7a700;
-            background-color: transparent;
-        }
-
-        .navbar .nav > li.active > a,
-        .navbar .nav > li.active > a:link,
-        .navbar .nav > li.active > a:visited {
-            background-color:#1b1b1b;
-            color: #D78B00;
-        }
-
-
-        .dropdown-menu > .active > a,
-        .dropdown-menu > .active > a:hover,
-        .dropdown-menu > .active > a:focus  {
-            color:#D78B00;
-            background-color:transparent;
-            background-image:none;
-        }
-
-        .dropdown-menu .divider {
-            height: auto;
-        }
-        */
-    </style>
     <jsp:invoke fragment="head"/>
 </head>
 <body>
 
+<style>
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav li {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  #container-navbar-custom {
+    width:auto;
+  }
+}
+</style>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 <div id="header_custom" class="navbar navbar-default navbar-fixed-top" style="width:100%;">
     <div id="container-navbar-custom" class="container${fluid ? '-fluid' : ''}">
         <div class="navbar-static-top">
-            <div class="">
+            <div id="myTopnav" class="topnav">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
                 <a class="navbar-brand" href="https://bioatlas.se/" target="_blank"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
@@ -154,8 +107,6 @@
                         </ul>
                     </li>
                     <li id="navContact"><a href="${pageContext.request.contextPath}/contact">Contact Us</a></li>
-                </ul>
-                <ul id="login" class="nav pull-right"  >
                    <c:choose>
                         <c:when test="${currentUser != null}">
                             <li id="navLogin" class="dropdown">
@@ -181,6 +132,9 @@
                         </c:otherwise>
                     </c:choose>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
             </div>
         </div>
     </div>
