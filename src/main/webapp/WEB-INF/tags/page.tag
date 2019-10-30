@@ -44,6 +44,7 @@
   .topnav a.icon {
     float: right;
     display: block;
+    font-size:25px;
   }
 }
 
