@@ -85,7 +85,7 @@ function myFunction() {
             <div id="myTopnav" class="topnav">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/home">
                    <img src="${pageContext.request.contextPath}/img/zoatrack_logo.png"/></a>
-                <a class="navbar-brand" href="https://bioatlas.se/" target="_blank"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
+                <a class="navbar-brand" href="https://bioatlas.se/"><img alt="Brand" src="https://bioatlas.se/wp-content/themes/atlas/img/bas-logo-2016-inline.png"></a>   
                 <ul class="nav">
                     <c:if test="${!empty navExtra}">
                         <jsp:invoke fragment="navExtra"/>

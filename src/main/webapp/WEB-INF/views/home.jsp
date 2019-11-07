@@ -211,7 +211,7 @@
             </div>
         </div>
 
-        <span id="by-line">This is the Swedish national portal for animal movement research data, including geographical timeseries and other sensor data. Most of the data originates from the <a href="https://www.canmove.lu.se/canmove" target="_blank">CAnMove project</a>.</span>
+        <span id="by-line">This is the Swedish national portal for animal movement research data, presenting geographical timeseries. Most of the data originates from the <a href="https://www.canmove.lu.se/canmove" target="_blank">CAnMove project</a>. Additional sensor data will be continuously added.</span>
         <hr/>
         <div class="row">
 
@@ -226,13 +226,14 @@
 
             <div id="right-panel" class="span3 offset1">
                 <div id="stats-div">
-                    <h2>CAnMove Stats</h2>
+                    <h2><a href="https://www.canmove.lu.se/canmove" target="_blank">CAnMove</a>a> Stats</h2>
                     <ul>
                         <li>112 Datasets</li> 
                         <li>53 Species</li> 
                         <li>13'924 Animals</li> 
                         <li>16'400 Tracks</li> 
                     </ul>
+                    <h2>Movement data in WRAM can be found in the <a href="https://www.slu.se/centrumbildningar-och-projekt/wireless-remote-animal-monitoring-wram/Background/" target="_blank">WRAM database</a></h2>
                 </div>
                 <!--
                 <div id="tutorials-div" style="padding-top:10px">
