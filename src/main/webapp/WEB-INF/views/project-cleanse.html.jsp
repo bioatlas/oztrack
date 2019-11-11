@@ -421,7 +421,7 @@
             }
 
         </script>
-        <script async defer src="${pageContext.request.scheme}://maps.googleapis.com/maps/api/js?v=3&key=${googleMapsApiKey}&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=${googleMapsApiKey}&callback=initMap"></script>
     </jsp:attribute>
     <jsp:body>
         <div class="mapTool">
