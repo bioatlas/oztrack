@@ -368,7 +368,7 @@
                             output.append($('<ol>').append($.map(results, function(result) {
                                 var a = $('<a>')
                                     .attr('target', '_blank')
-                                    .attr('href', 'http://bie.ala.org.au/species/' + result.guid)
+                                    .attr('href', 'https://bie.ala.org.au/species/' + result.guid)
                                     .text(result.name);
                                 if (result.description) {
                                     a.attr('title', result.description);

@@ -1178,7 +1178,7 @@
                     <c:if test="${not empty project.srsIdentifier}">
                         <dt>Spatial Reference System</dt>
                         <dd>
-                            <c:url var="srsHref" value="http://spatialreference.org/ref/">
+                            <c:url var="srsHref" value="https://spatialreference.org/ref/">
                                 <c:param name="search">${project.srsIdentifier}</c:param>
                             </c:url>
                             <p><a target="_blank" href="${srsHref}"><c:out value="${project.srsIdentifier}"/></a></p>
