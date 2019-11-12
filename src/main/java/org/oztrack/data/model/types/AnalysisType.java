@@ -111,8 +111,8 @@ public enum AnalysisType {
                 "parameter h and, in some cases, will fail to compute this h value. See " +
                 "Seaman and Powell (1998) for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "string",
                 null,
                 "href",
@@ -138,8 +138,8 @@ public enum AnalysisType {
                 "the home range. See the adehabitatHR package notes for more " +
                 "information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 null,
@@ -159,8 +159,8 @@ public enum AnalysisType {
                 "compact areas of usage, however it will also increase processing time. " +
                 "See the adehabitatHR package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 "50",
@@ -180,8 +180,8 @@ public enum AnalysisType {
                 "flat edge, try increasing this parameter value. See the adehabitatHR " +
                 "package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 "1",
@@ -271,8 +271,8 @@ public enum AnalysisType {
                 "in adehabitatHR library of functions (Calenge 2008). See the adehabitatHR " +
                 "package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 null,
@@ -289,8 +289,8 @@ public enum AnalysisType {
                 "classical fixed kernel approach (Calenge 2008). See the adehabitatHR package " +
                 "notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 null,
@@ -310,8 +310,8 @@ public enum AnalysisType {
                 "default of extent = 1. If your kernel polygon has a flat edge, try increasing " +
                 "this parameter value. See the adehabitatHR package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 "50",
@@ -329,8 +329,8 @@ public enum AnalysisType {
                 "compact areas of usage, however it will also increase processing time. See the " +
                 "adehabitatHR package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 "1",
@@ -441,8 +441,8 @@ public enum AnalysisType {
                 "number of neighbours to include (k) – 1 with which to construct the convex hulls. " +
                 "See the adehabitatHR package notes for more information.<p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 null,
                 "30",
@@ -458,8 +458,8 @@ public enum AnalysisType {
                 "(in meters) from the root point with which to include locations in convex hulls. " +
                 "See the adehabitatHR package notes for more information.</p>\n" +
                 "\n" +
-                "<p><a href=\"http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
-                "http://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
+                "<p><a href=\"https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf\">" +
+                "https://cran.r-project.org/web/packages/adehabitatHR/adehabitatHR.pdf</a></p>",
                 "double",
                 "m",
                 null,
