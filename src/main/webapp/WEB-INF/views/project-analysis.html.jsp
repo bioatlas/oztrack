@@ -443,7 +443,7 @@
                         dataLicence: {
                             title: '${project.dataLicence.title}',
                             infoUrl: '${project.dataLicence.infoUrl}',
-                            imageUrl: '${pageContext.request.scheme}://${fn:substringAfter(project.dataLicence.imageUrl, "://")}'
+                            imageUrl: 'https://${fn:substringAfter(project.dataLicence.imageUrl, "://")}'
                         },
                         </c:if>
                         crosses180: ${project.crosses180},
@@ -1082,7 +1082,7 @@
                         <p>Data in this project are made available under the following licence:</p>
                         <p style="margin-top: 18px;">
                             <a target="_blank" href="${project.dataLicence.infoUrl}"
-                            ><img src="${pageContext.request.scheme}://${fn:substringAfter(project.dataLicence.imageUrl, '://')}" /></a>
+                            ><img src="https://${fn:substringAfter(project.dataLicence.imageUrl, '://')}" /></a>
                         </p>
                         <p><span style="font-weight: bold;">${project.dataLicence.title}</span></p>
                         <p>${project.dataLicence.description} <a target="_blank" href="${project.dataLicence.infoUrl}">More information</a></p>

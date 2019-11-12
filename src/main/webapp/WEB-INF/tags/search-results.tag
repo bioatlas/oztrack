@@ -64,7 +64,7 @@
     </p>
     <p style="margin-top: 18px;">
         <a target="_blank" href="${project.dataLicence.infoUrl}"
-            ><img src="${pageContext.request.scheme}://${fn:substringAfter(project.dataLicence.imageUrl, '://')}" /></a>
+            ><img src="https://${fn:substringAfter(project.dataLicence.imageUrl, '://')}" /></a>
     </p>
     <p>
         <span style="font-weight: bold;">${project.dataLicence.title}</span>
